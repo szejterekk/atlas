@@ -1,0 +1,85 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+header{
+     
+    font-size: 2.5rem;
+    text-align: center;
+    color:rgb(161, 48, 48);
+}
+nav{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    padding:10px 0px;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+
+}
+nav a:hover{
+    cursor:pointer;
+    color:brown;
+}
+main{
+    width: 70%;
+    margin:auto;
+    background: rgba(0, 0, 0, 0.493);
+    padding:20px;
+}
+h3{
+    text-align:center;
+    font-size:2rem;
+    color:brown
+}
+main img{
+    height: 400px;
+    width:600px;
+    filter: saturate(30%);
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    margin: 0 30%;
+    margin-bottom: 5px;
+}
+main iframe{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 600px;
+    height:400px;
+    filter:saturate(30%);
+    margin: 0 30%;
+    margin-bottom: 30px;
+}
+body{
+    background: url(img/nawiedzone-lasy.jpg), linear-gradient(90deg, rgba(2,0,36,0.7833508403361344) 0%, rgba(84,84,92,0.5648634453781513) 60%, rgba(152,168,171,0.5284488795518207) 100%);
+    background-repeat: repeat;
+    color:white;
+}
+figcaption{
+    text-align: center;
+    font-weight:600
+}
+audio{
+    margin: 0 38.5%;
+    margin-bottom: 30px;
+}
+section{
+    border-bottom:3px solid rgb(80, 74, 74);
+}
+footer{
+    margin:20px;
+    background-color:rgba(0, 0, 0, 0.384);
+    height:60px;
+    width:350px;
+    display:flex;
+    justify-content: space-around;
+    padding: 17px 10px;
+}
